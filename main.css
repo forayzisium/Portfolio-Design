@@ -3,6 +3,9 @@ body {
   background-color: white;
   overflow-x: hidden;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 
 header {
   display: flex;
@@ -98,10 +101,10 @@ header ul a:hover {
   grid-template-areas: left right;
 }
 .feature-left img {
-  width: 30%;
+  width: 33%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 30em;
+  height: 32em;
   grid-area: left;
   position: relative;
   top: -380px;

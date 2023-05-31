@@ -8,9 +8,11 @@ body{
     margin: 1.5rem;
     background-color: white;
     overflow-x: hidden;
-    
+   
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -196,7 +198,6 @@ header{
   .footerss{
     font-weight: bold;
     font-family: sans-serif;
-    
     margin-left: 610px;
 }
 .photo{
